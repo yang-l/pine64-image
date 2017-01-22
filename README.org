@@ -3,9 +3,9 @@
 
 Build from [[https://github.com/yang-l/pine64-provision-image]]
 
-Root password: debian
+username/password: debian/debian
 
-Images are stored under versioned branches
+Images are stored under versioned branches. To use an image, download, uncompress and dd to the sd card.
 
 To reduce clone size, only clone the master branch
 
