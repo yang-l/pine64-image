@@ -1,0 +1,14 @@
+#+TITLE: Pine64 Images
+#+OPTIONS: toc:2 num:nil
+
+Build from [[https://github.com/yang-l/pine64-provision-image]]
+
+Root password: debian
+
+Images are stored under versioned branches
+
+To reduce clone size, only clone the master branch
+
+#+BEGIN_SRC bash
+git clone --depth 1 --branch master https://github.com/yang-l/pine64-image.git
+#+END_SRC
